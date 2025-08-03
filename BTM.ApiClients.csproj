@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.1</Version>
+		<Authors>Robinson</Authors>
+		<PackageId>BTM.ApiClients</PackageId>
+		<Description>Shared API clients for e-commerce microservices</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="AccountService\" />
+	</ItemGroup>
+
+</Project>
